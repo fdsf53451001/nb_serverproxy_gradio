@@ -6,7 +6,7 @@ from pathlib import Path
 # Requires openrefine to be on the path as: refine
 def setup_gradio():
     return {
-        'command': [''],
+        'command': ['ls'],
         'port': 7860,
         'environment': {},
         'timeout': 120,
